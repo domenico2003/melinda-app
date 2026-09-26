@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+/* Importo il font direttamente dalla libreria gratuita google font*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* =========================
+  1. LAYOUT E STILI GLOBALI
+  ==========================*/
+body {
+  font-family: "Nunito";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ==============================
+  2. STILI APPLICATI ALLA NAVBAR
+  ===============================*/
+.navbar {
+  background-color: #0a2140;
+  img {
+    height: 8vh;
+    padding-bottom: 5px;
+    min-height: 54px;
+    max-height: 74px;
+  }
+  span {
+    color: gray;
+    font-size: small;
+  }
+}
+.offCanvasLinks {
+  a {
+    font-size: medium;
+    font-weight: bold;
+  }
+}
+.navbar .btn-close {
+  filter: invert(1);
+  width: 24px;
+  height: 24px;
+}
+.navbar.titolo {
+  color: #fffffa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* ====================================================================
+  - MEDIAQUERY CHE SERVONO A MODIFICARE LO STILE IN BASE ALLA VIEWPORT
+  =====================================================================*/
+
+/* Mediaquery per la dimensione media*/
+@media (min-width: 768px) {
+  /* ==============================
+  2.1. STILI APPLICATI ALLA NAVBAR
+  =================================*/
+  .linkNav {
+    width: 75% !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Mediaquery per la dimensione large*/
+@media (min-width: 992px) {
+  /* ==============================
+  2.2. STILI APPLICATI ALLA NAVBAR
+  =================================*/
+  .linkNav {
+    width: 50% !important;
   }
 }

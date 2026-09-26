@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //utilizzo render per far apparire il tutto sulla pagina nel browser utilizzato per far girare l'applicazione
 root.render(
+  //qui apro il browserrouter che permette di gestire le diverse rotte senza ricaricare la pagina
   <BrowserRouter>
     <App />
   </BrowserRouter>,
