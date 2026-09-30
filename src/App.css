@@ -38,7 +38,42 @@ body {
 .navbar.titolo {
   color: #fffffa;
 }
+/* ==============================
+  3. STILI APPLICATI AL FOOTER
+  ===============================*/
 
+.footer {
+  background-color: #0a2140;
+  min-height: 300px;
+  padding: 20px 20px 0 20px;
+
+  img {
+    height: 8vh;
+    padding-bottom: 5px;
+    min-height: 54px;
+    max-height: 74px;
+  }
+  p.copy {
+    color: gray;
+    font-size: small;
+    margin: 0;
+    text-align: center;
+  }
+  .introduzione {
+    color: #fffffa;
+    font-size: x-small;
+    text-align: center;
+    margin: 0;
+  }
+  .bordi-link {
+    border-top: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color);
+    border-bottom: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color);
+    border-right: 0;
+    border-left: 0;
+  }
+}
 /* ====================================================================
   - MEDIAQUERY CHE SERVONO A MODIFICARE LO STILE IN BASE ALLA VIEWPORT
   =====================================================================*/
@@ -46,17 +81,32 @@ body {
 /* Mediaquery per la dimensione media*/
 @media (min-width: 768px) {
   /* ==============================
-  2.1. STILI APPLICATI ALLA NAVBAR
+  2.1 STILI APPLICATI ALLA NAVBAR
   =================================*/
   .linkNav {
     width: 75% !important;
+  }
+
+  /* ==============================
+  3.1 STILI APPLICATI AL FOOTER
+  ===============================*/
+  .bordi-link {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+    border-left: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+  }
+  .copy {
+    text-align: start !important;
   }
 }
 
 /* Mediaquery per la dimensione large*/
 @media (min-width: 992px) {
   /* ==============================
-  2.2. STILI APPLICATI ALLA NAVBAR
+  2.2 STILI APPLICATI ALLA NAVBAR
   =================================*/
   .linkNav {
     width: 50% !important;
