@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router";
 
 //importo il logo di melinda
-import Logo from "./logo.png";
+import Logo from "./img/logo.png";
 
 //dichiaro la funzione che contieniene il codice della navbar
 function Nav() {
