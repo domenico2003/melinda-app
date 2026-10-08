@@ -263,6 +263,36 @@ body {
     }
   }
 }
+
+/* ======================================
+  5. STILI APPLICATI ALLA PAGINA REPORT
+  =======================================*/
+
+.download-report {
+  background-color: #dfeee3;
+  height: 80vh;
+  .report-intro {
+    font-weight: 800;
+    font-size: small;
+    color: #173f2b;
+  }
+  .report-titolo {
+    color: #173f2b;
+    font-weight: 1000;
+  }
+  .report-descrizione {
+    width: fit-content;
+  }
+  .download-button {
+    background-color: #173f2b;
+    color: #fffffa;
+  }
+  .card-report {
+    width: 75%;
+    max-width: 800px;
+  }
+}
+
 /* ====================================================================
   - MEDIAQUERY CHE SERVONO A MODIFICARE LO STILE IN BASE ALLA VIEWPORT
   =====================================================================*/
@@ -365,6 +395,15 @@ body {
   }
 }
 
+/* Mediaquery personalizzata*/
+@media (min-width: 1149px) {
+  /* ======================================
+  5.1 STILI APPLICATI ALLA PAGINA REPORT
+  =======================================*/
+  .card-report {
+    width: 50% !important;
+  }
+}
 /* Mediaquery per la dimensione large*/
 @media (min-width: 992px) {
   /* ==============================
