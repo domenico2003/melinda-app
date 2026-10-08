@@ -287,6 +287,12 @@ body {
     background-color: #173f2b;
     color: #fffffa;
   }
+  .download-button:hover {
+    background-color: #173f2b;
+    transform: scale(1.05);
+    transition: 250ms;
+    color: #fffffa;
+  }
   .card-report {
     width: 75%;
     max-width: 800px;
