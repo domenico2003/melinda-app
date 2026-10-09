@@ -1,3 +1,4 @@
+/*Import componenti react-bootstrap*/
 import {
   Button,
   Card,
@@ -6,7 +7,11 @@ import {
   ProgressBar,
   Row,
 } from "react-bootstrap";
+
+/*Import componente personalizzata per le card della sezione iniziative*/
 import CardIniziative from "../cardIniziative";
+
+/*Import icone da react-icon*/
 import { FaDroplet } from "react-icons/fa6";
 import { FaTree } from "react-icons/fa";
 import { BiSolidZap } from "react-icons/bi";
@@ -14,15 +19,20 @@ import { FaRecycle } from "react-icons/fa";
 import { GiBee } from "react-icons/gi";
 import { FaHandshakeSimple } from "react-icons/fa6";
 
+/*Import varie immaggini utilizzate  nel sito*/
 import fotovoltaicoMelinda from "../img/fotovoltaicoMelinda.jpg";
 import acquaMelinda from "../img/acquaMelinda.jpg";
 import agricolturaBio from "../img/agricolturaBio.jpg";
 import valDiNon from "../img/val-di-non.jpeg";
 
+/*Dichiarazione funzione contenente la home page*/
 function Home() {
+  /* apertura return che mi ritorna la pagina quando richiamo la funzione*/
   return (
     <>
-      {/*Sezione hero*/}
+      {/*============
+         SEZIONE HERO
+         ============*/}
       <Container fluid className="p-0">
         <Row className=" contenuto-hero g-0">
           <Col md={6}>
@@ -76,7 +86,10 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      {/*Sezione introduzione*/}
+
+      {/*====================
+         SEZIONE INTRODUZIONE
+         ====================*/}
       <Container fluid className="intro mb-5">
         <Row xs={1} md={2} className="h-100">
           <Col>
@@ -109,7 +122,10 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      {/*Sezione principali dati*/}
+
+      {/*=======================
+         SEZIONE PRINCIPALI DATI
+         =======================*/}
       <Container
         fluid
         className="sezione-dati mt-5 d-flex flex-column justify-content-center"
@@ -163,7 +179,10 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      {/*Sezione iniziative*/}
+
+      {/*==================
+         SEZIONE INIZIATIVE
+         ==================*/}
       <Container fluid id="iniziative" className="mb-5 pb-5">
         <Container
           fluid
@@ -239,7 +258,10 @@ function Home() {
           </Container>
         </Container>
       </Container>
-      {/*Sezione ambiente*/}
+
+      {/*====================
+         SEZIONE AMBIENTE
+         ====================*/}
       <Container fluid className="sezioni-approfondimento">
         <Row xs={1} md={2} className="h-100">
           <Col className="d-flex flex-column justify-content-center">
@@ -274,7 +296,10 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      {/*Sezione acqua*/}
+
+      {/*====================
+         SEZIONE ACQUA
+         ====================*/}
       <Container fluid className="sezioni-approfondimento bg-white" id="acqua">
         <Row xs={1} md={2} className="h-100 ">
           <Col className="d-flex flex-column align-items-center justify-content-center order-2 order-md-1 ">
@@ -317,7 +342,10 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      {/*Sezione energia*/}
+
+      {/*====================
+         SEZIONE ENERGIA
+         ====================*/}
       <Container fluid className="sezioni-approfondimento">
         <Row xs={1} md={2} className="h-100">
           <Col className="d-flex flex-column justify-content-center">
@@ -357,7 +385,9 @@ function Home() {
         </Row>
       </Container>
 
-      {/*Sezione celle ipogee*/}
+      {/*====================
+         SEZIONE CELLE IPOGEE
+         ====================*/}
       <Container
         fluid
         className="text-center text-sm-start sezione-ipogee d-flex flex-column justify-content-center align-item-center align-item-sm-start"
@@ -402,7 +432,9 @@ function Home() {
         </Row>
       </Container>
 
-      {/*Sezione imballaggi e biodiversità*/}
+      {/*==================================
+         SEZIONE IMBALLAGGI & BIODIVERSITA'
+         ==================================*/}
       <Container
         fluid
         className="sezioni-approfondimento d-flex "
@@ -452,7 +484,10 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      {/*Sezione Persone*/}
+
+      {/*====================
+         SEZIONE PERSONE
+         ====================*/}
       <Container
         fluid
         className="sezione-persone mt-5 mb-5 d-flex flex-column justify-content-center"
@@ -518,4 +553,5 @@ function Home() {
   );
 }
 
+/*Esporto il componente contenente della home page*/
 export default Home;

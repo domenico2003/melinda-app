@@ -1,7 +1,12 @@
+/*importo i componenti di react-bootstrap*/
 import { Col, Container, Row } from "react-bootstrap";
 
+/*importo il report di melinda per aggiungere la possibilità di scaricarlo*/
 import reportMelinda from "../report-melinda.pdf";
+
+/*Dichiarazione funzione contenente la pagina del report*/
 function Report() {
+  /* apertura return che mi ritorna la pagina quando richiamo la funzione*/
   return (
     <Container fluid className="download-report d-flex">
       <Container
@@ -40,5 +45,5 @@ function Report() {
     </Container>
   );
 }
-
+/*Esporto il componente contenente della pagina report*/
 export default Report;
