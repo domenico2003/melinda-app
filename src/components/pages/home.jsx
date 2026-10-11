@@ -314,13 +314,12 @@ function Home() {
               <p className="m-0 intro">02 · ACQUA</p>
               <h1 className="titolo ">Ogni goccia conta.</h1>
               <p className="sottotitolo">
-                L'irrigazione a goccia consente, secondo il documento
-                analizzato, di ridurre i consumi di oltre il 30%. Nei processi
-                di lavorazione sono inoltre presenti sistemi di trattamento e
-                riciclo dell'acqua.
+                L'irrigazione a goccia consente di ridurre i consumi di oltre il
+                30%. Nei processi di lavorazione sono inoltre presenti sistemi
+                di trattamento e riciclo dell'acqua.
               </p>
               <Row className="mt-3 " xs={1} sm={2}>
-                <Col className=" ">
+                <Col>
                   <h1 className=" text-center text-sm-start m-0 titolo border-top border-success border-3 pt-2">
                     {">"}30%
                   </h1>
@@ -334,7 +333,7 @@ function Home() {
                     60–90%
                   </h1>
                   <p className="m-0 text-center text-sm-start  sottotitolo ">
-                    riduzione indicata per il riciclo dell'acqua
+                    riduzione per il riciclo dell'acqua
                   </p>
                 </Col>
               </Row>
@@ -359,9 +358,9 @@ function Home() {
               </h1>
               <p className="sottotitolo">
                 Per le attività di lavorazione e conservazione vengono
-                utilizzate fonti rinnovabili. Nel periodo 2021-2022 il documento
-                indica un consumo energetico composto per il 90,29% da energia
-                idroelettrica e per il 9,71% da fotovoltaico.
+                utilizzate fonti rinnovabili. Nel periodo 2021-2022 il consumo
+                energetico è composto per il 90,29% da energia idroelettrica e
+                per il 9,71% da fotovoltaico.
               </p>
               <Container className="mt-4">
                 <ProgressBar>
@@ -454,9 +453,9 @@ function Home() {
                   <h1 className="titolo ">Le 3 R</h1>
                   <p className="sottotitolo">
                     Risparmio, riutilizzo e riciclo sono alla base
-                    dell'approccio agli imballaggi. Il materiale analizzato
-                    riporta inoltre l'utilizzo di cartone ondulato e plastica
-                    riutilizzabile.
+                    dell'approccio agli imballaggi. Inoltre vengono utilizzati
+                    cartone ondulato e plastica riutilizzabile per un
+                    imballaggio più sostenibile.
                   </p>
                 </Container>
               </Card.Body>
@@ -476,7 +475,7 @@ function Home() {
                   <p className="sottotitolo">
                     Api, monitoraggio della qualità biologica del suolo,
                     confusione sessuale e antagonisti biologici sono tra le
-                    pratiche descritte nel percorso di sostenibilità.
+                    utilizzate per proteggere l'ecosistema in modo sostenibile.
                   </p>
                 </Container>
               </Card.Body>
@@ -493,7 +492,7 @@ function Home() {
         className="sezione-persone mt-5 mb-5 d-flex flex-column justify-content-center"
         id="persone"
       >
-        <Container fluid className="d-flex justify-content-center dati-header">
+        <Container fluid className="d-flex justify-content-center">
           <Container fluid className="mt-5 mt-md-0 mb-3 ">
             <p className="m-0 persone-intro text-center ">
               06 · PERSONE E TERRITORIO
@@ -553,5 +552,5 @@ function Home() {
   );
 }
 
-/*Esporto il componente contenente della home page*/
+/*Esporto il componente contenente la home page*/
 export default Home;
