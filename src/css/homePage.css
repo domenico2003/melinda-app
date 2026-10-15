@@ -1,0 +1,187 @@
+/* =================================
+  - STILI APPLICATI ALLA HOME PAGE
+  ==================================*/
+
+/*SEZIONE HERO*/
+.contenuto-hero {
+  width: 100%;
+  .bottone-hero {
+    background-color: #2d6a45 !important;
+    border-color: #2d6a45 !important;
+    color: white !important;
+    width: max-content;
+  }
+  .sottotitolo-img {
+    font-weight: 700;
+  }
+  .titolo-img {
+    font-weight: 1000;
+  }
+  .hero-titolo {
+    font-weight: 1000;
+    color: #173f2b;
+    span {
+      color: #2d6a45;
+    }
+    .hero-testo {
+      width: 100%;
+    }
+  }
+}
+/*SEZIONE INTRO*/
+.intro {
+  min-height: 40vh;
+
+  .intro-contenuto {
+    max-width: max-content;
+  }
+  .intro-titolo {
+    font-weight: 1000;
+    color: #173f2b;
+  }
+  .intro-testo {
+    height: min-content;
+    span {
+      font-weight: 800;
+    }
+  }
+}
+
+/*SEZIONE DATI*/
+.sezione-dati {
+  background-color: #173f2b;
+  color: #fffffa;
+  .dati-header {
+    .dati-titolo {
+      font-weight: 1000;
+    }
+    max-width: max-content;
+  }
+}
+
+/*Sezione iniziative*/
+#iniziative {
+  .container-titolo-iniziative {
+    height: 40vh !important;
+  }
+  #Agricoltura {
+    color: #2d6a45 !important;
+  }
+  #Acqua {
+    color: #6ecdff !important;
+  }
+  #Energia {
+    color: #fa8648 !important;
+  }
+  #Imballaggi {
+    color: #2b6867 !important;
+  }
+  #Biodiversita {
+    color: #4a2b00 !important;
+  }
+  #Persone {
+    color: #de891d !important;
+  }
+  .card-iniziative {
+    height: 22pc;
+    transition: transform 0.3s ease;
+    .titolo {
+      color: #173f2b;
+    }
+    .sottotitolo {
+      color: gray;
+    }
+  }
+
+  .card-iniziative:hover {
+    transform: scale(1.05);
+  }
+  .link-card {
+    color: #173f2b;
+  }
+  .premessa {
+    color: #173f2b;
+  }
+  h1 {
+    font-size: 5vh;
+  }
+  .iniziative-titolo {
+    font-weight: 1000;
+    color: #173f2b;
+    span {
+      color: #2d6a45;
+    }
+  }
+}
+
+/*Sezione ambiente*/
+.sezioni-approfondimento {
+  background-color: #f7f5ed;
+  .introduzione-iniziative {
+    height: fit-content;
+    font-weight: 800;
+    font-size: small;
+    color: #173f2b;
+  }
+  .titolo {
+    font-weight: 800;
+    font-size: 2pc;
+    color: #173f2b;
+  }
+  .sottotitolo {
+    color: rgb(80, 79, 79);
+  }
+  img {
+    height: auto;
+    max-height: 75%;
+    max-width: 100%;
+
+    width: auto;
+  }
+}
+
+/*sezione celle ipogee*/
+
+.sezione-ipogee {
+  background-color: #173f2b;
+  min-height: 70vh;
+  color: #fffffa;
+  .celle-titolo {
+    font-weight: 1000;
+  }
+}
+
+/*Sezione Imballaggi & Biodiversita*/
+
+#imballaggiBiodiversita {
+  min-height: 70vh;
+
+  .card-imballaggiBiodiversita {
+    min-height: 70%;
+    width: 80%;
+  }
+}
+
+/*sezione persone*/
+
+.sezione-persone {
+  min-height: 75vh;
+  .persone-intro {
+    font-weight: 800;
+    font-size: small;
+    color: #173f2b;
+  }
+  .persone-titolo {
+    color: #173f2b;
+    font-weight: 1000;
+  }
+
+  .card-persone {
+    background-color: #f7f5ed;
+    min-height: 9pc !important;
+    .card-persone-titolo {
+      font-weight: 700;
+      color: #173f2b;
+    }
+  }
+}

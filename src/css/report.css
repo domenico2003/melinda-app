@@ -1,0 +1,34 @@
+/* ======================================
+  - STILI APPLICATI ALLA PAGINA REPORT
+  =======================================*/
+
+.download-report {
+  background-color: #dfeee3;
+  height: 80vh;
+  .report-intro {
+    font-weight: 800;
+    font-size: small;
+    color: #173f2b;
+  }
+  .report-titolo {
+    color: #173f2b;
+    font-weight: 1000;
+  }
+  .report-descrizione {
+    width: fit-content;
+  }
+  .download-button {
+    background-color: #173f2b;
+    color: #fffffa;
+  }
+  .download-button:hover {
+    background-color: #173f2b;
+    transform: scale(1.05);
+    transition: 250ms;
+    color: #fffffa;
+  }
+  .card-report {
+    width: 75%;
+    max-width: 800px;
+  }
+}

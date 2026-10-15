@@ -1,0 +1,190 @@
+/* ======================================
+  - STILI APPLICATI ALLA PAGINA AMBIENTE
+  =======================================*/
+
+/*SEZIONE BANNER AMBIENTE*/
+.introduzione-ambiente {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  img {
+    display: block;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  .container-testo-introAmbiente {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.269);
+
+    div:first-of-type {
+      width: fit-content;
+      max-width: 100%;
+      overflow-wrap: break-word;
+    }
+    .introduzione-ambiente-titolo {
+      font-size: 3pc;
+      color: #173f2b;
+      font-weight: 800;
+      text-shadow: 0 0 11px white;
+    }
+    .introduzione-ambiente-testo {
+      color: white;
+      font-weight: bold;
+    }
+    p {
+      font-size: small;
+      font-weight: 800;
+      color: white;
+
+      text-align: center;
+    }
+  }
+}
+
+/*SEZIONE MELETI*/
+.sezione-meleti {
+  .meleti-titolo {
+    p {
+      font-size: normal;
+      font-weight: 800;
+      color: #2d6a45;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 2pc;
+      color: #173f2b;
+    }
+  }
+
+  .img-meleti {
+    max-height: 400px;
+  }
+  h2 {
+    color: #2d6a45;
+    font-weight: 800;
+  }
+}
+
+/*SEZIONE CELLE IPOGEE*/
+.sezione-ipogeeAmbiente {
+  background-color: #f7f5ed;
+  .ipogeeAmbiente-titolo {
+    p {
+      font-size: normal;
+      font-weight: 800;
+      color: #2d6a45;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 2pc;
+      color: #173f2b;
+    }
+  }
+
+  .img-ipogeeAmbiente {
+    max-height: 350px;
+  }
+  h2 {
+    color: #2d6a45;
+    font-weight: 800;
+  }
+}
+
+/*SEZIONE APPROFONDIMENTO CELLE IPOGEE*/
+.sezione-approfindimentoIpogee {
+  background-color: #173f2b;
+
+  .approfindimentoIpogee-titolo {
+    font-weight: 800;
+    font-size: 2pc;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .card-approfindimentoIpogee {
+    min-height: 17pc !important;
+    .card-approfindimentoIpogee-titolo {
+      font-weight: 700;
+      color: #173f2b;
+    }
+    p {
+      height: 50px;
+    }
+  }
+}
+
+/*SEZIONE ENERGIA AMBIENTE*/
+.sezione-energiaAmbiente {
+  .energiaAmbiente-titolo {
+    p:first-of-type {
+      font-size: normal;
+      font-weight: 800;
+      color: #2d6a45;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 2pc;
+      color: #173f2b;
+    }
+  }
+  h2 {
+    color: #2d6a45;
+    font-weight: 800;
+    svg {
+      font-size: xx-large;
+    }
+  }
+  .approfondimento-energiaAmbiente {
+    max-width: 550px;
+  }
+  .card-energiaAmbiente {
+    max-width: 550px;
+    min-height: 275px;
+  }
+}
+
+/*SEZIONE ACQUA*/
+.sezione-acqua {
+  background-color: #173f2b;
+  .acqua-titolo {
+    h1 {
+      font-weight: 800;
+      font-size: 2pc;
+    }
+    p {
+      font-weight: 800 !important;
+    }
+  }
+  .approfondimento-acqua {
+    h4 {
+      font-weight: 1000 !important;
+    }
+  }
+  img {
+    max-height: 400px;
+  }
+}
+/*SEZIONE FUTURO*/
+.sezione-futuro {
+  .futuro-titolo {
+    p {
+      font-weight: 800;
+      color: #2d6a45;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 2pc;
+      color: #173f2b;
+    }
+  }
+
+  h2 {
+    color: #2d6a45;
+    font-weight: 800;
+  }
+}

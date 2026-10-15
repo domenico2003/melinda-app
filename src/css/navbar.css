@@ -1,0 +1,30 @@
+/* ==============================
+  - STILI APPLICATI ALLA NAVBAR
+  ===============================*/
+.navbar {
+  background-color: #0a2140;
+  img {
+    height: 8vh;
+    padding-bottom: 5px;
+    min-height: 54px;
+    max-height: 74px;
+  }
+  span {
+    color: gray;
+    font-size: small;
+  }
+}
+.offCanvasLinks {
+  a {
+    font-size: medium;
+    font-weight: bold;
+  }
+}
+.navbar .btn-close {
+  filter: invert(1);
+  width: 24px;
+  height: 24px;
+}
+.navbar.titolo {
+  color: #fffffa;
+}

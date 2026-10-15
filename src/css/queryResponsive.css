@@ -1,0 +1,276 @@
+/* ====================================================================
+  - MEDIAQUERY CHE SERVONO A MODIFICARE LO STILE IN BASE ALLA VIEWPORT
+  =====================================================================*/
+/* Mediaquery per la dimensione piccola personalizzata*/
+@media (min-width: 400px) {
+  /* ======================================
+  6.0.1 STILI APPLICATI ALLA PAGINA CHI SIAMO
+  =======================================*/
+  /*SEZIONE BANNER CHI SIAMO*/
+  .introduzione-chisiamo-titolo {
+    font-size: 4pc !important;
+  }
+  /* ======================================
+  7.0.1 STILI APPLICATI ALLA PAGINA AMBIENTE
+  =======================================*/
+  /*SEZIONE BANNER AMBIENTE*/
+  .container-testo-introAmbiente {
+    .introduzione-ambiente-titolo {
+      font-size: 4pc !important;
+    }
+    p {
+      text-align: end !important;
+    }
+  }
+}
+/* Mediaquery per la dimensione piccola*/
+@media (min-width: 576px) {
+  /* =================================
+  4.0.2 STILI APPLICATI ALLA HOME PAGE
+  ==================================*/
+  .hero-testo {
+    width: 75%;
+  }
+  .intro-testo {
+    width: 75%;
+  }
+
+  #varieta {
+    border-top: 0 !important;
+    border-bottom: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+  #biologica {
+    border-top: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+  #idroelettrica {
+    border-top: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+  }
+
+  /* ========================================
+  7.0.2 STILI APPLICATI ALLA PAGGINA AMBIENTE
+  ===========================================*/
+  /*SEZIONE MELETI*/
+  .meleti-titolo {
+    h1 {
+      font-size: 3pc !important;
+    }
+  }
+}
+/* Mediaquery per la dimensione media*/
+@media (min-width: 768px) {
+  /* ==============================
+  2.1 STILI APPLICATI ALLA NAVBAR
+  =================================*/
+  .linkNav {
+    width: 75% !important;
+  }
+
+  /* ==============================
+  3.1 STILI APPLICATI AL FOOTER
+  ===============================*/
+  .bordi-link {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+    border-left: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+  }
+  .copy {
+    text-align: start !important;
+  }
+  /* =================================
+  4.1 STILI APPLICATI ALLA HOME PAGE
+  ==================================*/
+  .hero-testo {
+    width: 100%;
+  }
+  .intro {
+    div:first-of-type {
+      min-height: 40vh;
+    }
+  }
+  .sezione-dati {
+    min-height: 75vh;
+  }
+  #famiglie {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important ;
+    border-left: 0 !important ;
+  }
+  #varieta {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important ;
+    border-left: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important ;
+  }
+  #biologica {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important ;
+    border-left: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important ;
+  }
+  #idroelettrica {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+  }
+
+  /* ======================================
+  6.1 STILI APPLICATI ALLA PAGINA CHI SIAMO
+  =======================================*/
+  /*SEZIONE BANNER CHI SIAMO*/
+  .introduzione-chisiamo-testo {
+    width: 75%;
+  }
+
+  /* ======================================
+  7.1 STILI APPLICATI ALLA PAGINA AMBIENTE
+  =======================================*/
+  /*SEZIONE BANNER AMBIENTE*/
+  .introduzione-ambiente-testo {
+    width: 75%;
+  }
+}
+
+/* Mediaquery personalizzata*/
+@media (min-width: 1149px) {
+  /* ======================================
+  5.1.1 STILI APPLICATI ALLA PAGINA REPORT
+  =======================================*/
+  .card-report {
+    width: 50% !important;
+  }
+
+  /* ======================================
+  7.1.1 STILI APPLICATI ALLA PAGINA AMBIENTE
+  =======================================*/
+  /*SEZIONE CELLE IPOGEE*/
+  .ipogeeAmbiente-contenuto {
+    width: 75% !important;
+  }
+  /*SEZIONE ENERGIA */
+  .approfondimento-energiaAmbiente {
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .approfondimento-acqua {
+    p {
+      width: 75%;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+
+  /*SEZIONE FUTURO*/
+  .futuro-descrizione {
+    width: 75% !important;
+  }
+}
+/* Mediaquery per la dimensione large*/
+@media (min-width: 992px) {
+  /* ==============================
+  2.2 STILI APPLICATI ALLA NAVBAR
+  =================================*/
+  .linkNav {
+    width: 50% !important;
+  }
+  /* =================================
+  4.2 STILI APPLICATI ALLA HOME PAGE
+  ==================================*/
+  .hero-testo {
+    width: 75%;
+  }
+  .intro-testo {
+    width: 75%;
+  }
+  /* ======================================
+  6.2 STILI APPLICATI ALLA PAGINA CHI SIAMO
+  =======================================*/
+  /*SEZIONE BANNER CHI SIAMO*/
+  .introduzione-chisiamo-testo {
+    width: 50%;
+  }
+
+  /*SEZIONE STORIA*/
+  .contenuto {
+    width: 85%;
+  }
+  /*SEZIONE EVOLUZIONE*/
+  .sezione-evoluzione {
+    .evoluzione {
+      width: 50% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+  /*SEZIONE TERRITORIO*/
+
+  .descrizione-img-territorio {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ======================================
+  7.2 STILI APPLICATI ALLA PAGINA AMBIENTE
+  =======================================*/
+  /*SEZIONE BANNER AMBIENTE*/
+  .introduzione-ambiente-testo {
+    width: 50%;
+  }
+
+  /*SEZIONE MELETI*/
+
+  .descrizione-img-meleti {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*SEZIONE ACQUA*/
+  .descrizione-img-acqua {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  /*SEZIONE VALORI*/
+  .card-valori {
+    width: 75%;
+  }
+
+  /* ======================================
+  7.2.1 STILI APPLICATI ALLA PAGINA AMBIENTE
+  =========================================*/
+  /*SEZIONE CELLE IPOGEE*/
+  .ipogeeAmbiente-contenuto {
+    width: 60% !important;
+  }
+  /*SEZIONE FUTURO*/
+  .futuro-descrizione {
+    width: 60% !important;
+  }
+}

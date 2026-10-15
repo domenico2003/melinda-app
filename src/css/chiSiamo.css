@@ -1,0 +1,228 @@
+/* ======================================
+  - STILI APPLICATI ALLA PAGINA CHI SIAMO
+  =======================================*/
+
+/*SEZIONE BANNER CHI SIAMO*/
+.introduzione-Chisiamo {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  img {
+    display: block;
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  .container-testo-introChisiamo {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.269);
+
+    .introduzione-chisiamo-titolo {
+      font-size: 3pc;
+      color: #173f2b;
+      font-weight: 800;
+      text-shadow: 0 0 11px white;
+    }
+    .introduzione-chisiamo-testo {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+/*SEZIONE LA NOSTRA STORIA*/
+.sezioneStoria {
+  min-height: 250px;
+  .capitolo {
+    font-size: small;
+    font-weight: 800;
+    color: #2d6a45;
+  }
+  .titolo {
+    font-weight: 700;
+    color: #173f2b;
+  }
+}
+
+/*SEZIONE EVOLUZIONE*/
+.sezione-evoluzione {
+  background-color: #f7f5ed;
+  .evoluzione-titolo {
+    p {
+      font-size: normal;
+      font-weight: 800;
+      color: #2d6a45;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 3pc;
+      color: #173f2b;
+    }
+  }
+  .evoluzione-contenuto {
+    position: relative;
+    padding: 0 0 0 30px;
+    margin: 30px 0;
+
+    .timeline-item {
+      position: relative;
+      padding-bottom: 28px;
+    }
+
+    /* Pallini timeline*/
+    .timeline-dot {
+      position: absolute;
+      top: 5px;
+      left: -26px;
+      width: 18px;
+      height: 18px;
+      background: #000;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    /* Testo */
+    .timeline-content h3 {
+      color: #164e35;
+      font-size: 2rem;
+      font-weight: 800;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .timeline-content p {
+      color: #111;
+      font-size: 1.4rem;
+      font-style: italic;
+      letter-spacing: 2px;
+      line-height: 1.4;
+      margin: 0;
+    }
+  }
+  /* Linea verticale timeline */
+  .evoluzione-contenuto::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    bottom: 36px;
+    left: 10px;
+    width: 4px;
+    background: #000;
+    z-index: 0;
+  }
+}
+
+/*SEZIONE GRAFICI*/
+.sezione-grafici {
+  min-height: 75vh;
+  background-color: #173f2b;
+
+  .grafici-intro {
+    font-size: normal;
+    font-weight: 800;
+  }
+  .grafici-titolo {
+    font-weight: 800;
+    font-size: 3pc;
+  }
+
+  .card-grafici {
+    min-height: 17pc !important;
+    .card-grafici-titolo {
+      font-weight: 700;
+      color: #173f2b;
+    }
+  }
+  .approfondimento-card-grafici {
+    h1 {
+      color: #ffbd58;
+      font-weight: 700;
+      font-size: xx-large;
+    }
+    p {
+      font-weight: 700;
+      font-size: large;
+      color: white;
+    }
+  }
+}
+
+/*SEZIONE TERRITORIO*/
+.sezione-territorio {
+  .territorio-titolo {
+    p {
+      font-size: normal;
+      font-weight: 800;
+      color: #2d6a45;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: 3pc;
+      color: #173f2b;
+    }
+  }
+  .approfondimento-territorio {
+    p {
+      font-size: normal;
+      font-weight: 800;
+    }
+    h4 {
+      font-weight: 1000 !important;
+
+      color: #2d6a45;
+    }
+  }
+}
+
+/* SEZIONE VALORI*/
+
+.sezione-valori {
+  background-color: #173f2b;
+  .valori-intro {
+    font-size: normal;
+    font-weight: 800;
+  }
+  .valori-titolo {
+    font-weight: 800;
+    font-size: 3pc;
+  }
+
+  .card-valori {
+    height: 17pc;
+
+    margin-right: auto;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+    .titolo {
+      color: #173f2b;
+    }
+    .sottotitolo {
+      color: gray;
+    }
+    #mutualita {
+      color: #2b6867;
+    }
+    #reciprocita {
+      color: #de891d;
+    }
+    #equita {
+      color: darkslategray;
+    }
+    #territorio {
+      color: #4a2b00;
+    }
+    #democrazia {
+      color: firebrick;
+    }
+    #responsabilità {
+      color: #173f2b;
+    }
+  }
+  .card-valori:hover {
+    transform: scale(1.05);
+  }
+}
