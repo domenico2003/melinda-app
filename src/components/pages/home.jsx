@@ -99,18 +99,18 @@ function Home() {
             >
               <Container
                 fluid
-                className="d-inline intro-contenuto  text-center text-md-start"
+                className="d-flex flex-column justify-content-center intro-contenuto  text-center text-md-start"
               >
-                <p className="m-0 ">IL MONDO MELINDA</p>
+                <p className="m-0 fw-bold text-black-50">IL MONDO MELINDA</p>
                 <h1 className="intro-titolo text-center text-md-start">
                   Una realtà agricola
-                  <br /> legata al territorio.
+                  <br className="d-none d-sm-block" /> legata al territorio.
                 </h1>
               </Container>
             </Container>
           </Col>
           <Col className=" d-flex align-items-center justify-content-center">
-            <p className=" text-center text-md-start intro-testo ">
+            <p className=" text-center text-md-start intro-testo m-0">
               Melinda è un consorzio agricolo formato da{" "}
               <span className=" text-decoration-underline">16 cooperative</span>{" "}
               e da oltre{" "}
@@ -266,7 +266,7 @@ function Home() {
         <Row xs={1} md={2} className="h-100">
           <Col className="d-flex flex-column justify-content-center">
             <Container fluid className="text-center text-md-start mt-5 mb-md-5">
-              <p className="m-0 intro" id="agricoltura">
+              <p className="m-0 introduzione-iniziative" id="agricoltura">
                 01 · AGRICOLTURA
               </p>
               <h1 className="titolo ">
@@ -311,7 +311,7 @@ function Home() {
           </Col>
           <Col className="d-flex flex-column justify-content-center order-1 order-md-2">
             <Container fluid className="text-center text-md-start mt-5 mb-md-5">
-              <p className="m-0 intro">02 · ACQUA</p>
+              <p className="m-0 introduzione-iniziative">02 · ACQUA</p>
               <h1 className="titolo ">Ogni goccia conta.</h1>
               <p className="sottotitolo">
                 L'irrigazione a goccia consente di ridurre i consumi di oltre il
@@ -349,7 +349,7 @@ function Home() {
         <Row xs={1} md={2} className="h-100">
           <Col className="d-flex flex-column justify-content-center">
             <Container fluid className="text-center text-md-start mt-5 mb-md-5">
-              <p className="m-0 intro" id="energia">
+              <p className="m-0 introduzione-iniziative" id="energia">
                 03 · ENERGIA
               </p>
               <h1 className="titolo ">
@@ -447,7 +447,7 @@ function Home() {
                   fluid
                   className="text-center text-md-start mt-md-5 mb-md-5"
                 >
-                  <p className="m-0 intro" id="imballaggi">
+                  <p className="m-0 introduzione-iniziative" id="imballaggi">
                     04 · IMBALLAGGI
                   </p>
                   <h1 className="titolo ">Le 3 R</h1>
@@ -468,7 +468,7 @@ function Home() {
                   fluid
                   className="text-center text-md-start mt-md-5 mb-md-5"
                 >
-                  <p className="m-0 intro" id="biodiversità">
+                  <p className="m-0 introduzione-iniziative" id="biodiversità">
                     05 · BIODIVERSITÀ
                   </p>
                   <h1 className="titolo ">Proteggere l'ecosistema.</h1>

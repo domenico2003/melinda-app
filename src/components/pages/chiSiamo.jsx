@@ -57,7 +57,7 @@ function ChiSiamo() {
           className="container-testo-introChisiamo d-flex flex-column align-items-cente justify-content-center"
         >
           <h1 className="introduzione-chisiamo-titolo text-center ">
-            CHI SIAMO
+            CHI SIAMO.
           </h1>
           <p className=" text-center  introduzione-chisiamo-testo  ms-auto me-auto">
             Melinda è un consorzio di produttori di mele nato nel{" "}
